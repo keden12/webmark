@@ -1,0 +1,28 @@
+
+
+<div id="load" class="ui loading segment">
+{{#each webmark}}
+  <section class="ui raised red segment">
+      <a id="bookmarkicons" class="ui red ribbon label"><i class="bookmark icon"></i>Collection</a>
+    
+    <span class="sizer"> <i class="{{icon}}"></i> {{title}}</span> 
+        <h3 id="update"> Total Bookmarks: {{calcBookmarks bookmarks}}</h3>
+    <a href="/webmark/{{id}}/deletecollection/" class="ui red icon button"> <i class="inverted trash large icon"></i> </a>
+  {{#if bookmarks}}
+    <a href="/bookmark/{{id}}" class="ui red icon button"> <i class="inverted angle double right large icon"></i> </a>
+{{/if}}
+  
+  </section>
+{{/each}}
+  </div>
+
+
+
+<script>
+   setTimeout(
+    function() {
+    $("#load").removeClass("ui loading segment");
+    }, 1000);
+ 
+  
+  </script>

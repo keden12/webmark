@@ -1,0 +1,100 @@
+{
+"webmarkCollection":[
+{
+  "id":"01",
+  "icon": "html5 green icon",
+  "title": "HTML Learning Resources",
+  "value": 4,
+  "bookmarks": [
+    {
+      "id":"04",
+      "title": "W3Schools",
+      "value":1,
+      "url": "https://www.w3schools.com/html/"
+    },
+    {
+      "id":"05",
+      "title": "CodeAcademy",
+      "value":1,
+      "url": "https://www.codecademy.com/learn/learn-html"
+    },
+    {
+      "id":"06",
+      "title": "CoderDojo",
+      "value":1,
+      "url": "http://kata.coderdojo.com/wiki/HTML_Path"
+    },
+    {
+      "id":"07",
+     "title": "HTML Goodies",
+      "value":1,
+     "url": "https://www.htmlgoodies.com/"
+    }
+  ]
+},
+{
+  "id":"02",
+  "icon": "css3 blue icon",
+  "title": "CSS Learning Resources",
+  "value": 4,
+  "bookmarks": [
+    {
+      "id":"08",
+      "title": "CSS Tricks",
+      "value":1,
+      "url": "https://css-tricks.com/"
+    },
+    {
+      "id":"09",
+      "title": "Responsive Design Weekly",
+      "value":1,
+      "url": "http://responsivedesignweekly.com/"
+    },
+    {
+      "id":"10",
+      "title": "Jen Simmons",
+      "value":1,
+      "url": "http://labs.jensimmons.com/"
+    },
+    
+    {
+      "id":"11",
+      "title": "W3",
+      "value":1,
+      "url": "https://www.w3.org/Style/CSS/learning.en.html"
+    }
+  ]
+},
+{
+  "id":"03",
+  "icon": "code yellow icon",
+  "title": "Javascript Learning Resources",
+  "value": 4,
+  "bookmarks": [
+    {
+      "id":"12",
+      "title": "Code School",
+      "value":1,
+      "url": "https://www.codeschool.com/learn/javascript"
+    },
+    {"id":"13",
+      "title": "CodeWars",
+     "value":1,
+      "url": "https://www.codewars.com/?language=javascript"
+    },
+    {
+      "id":"14",
+      "title": "Stack Overflow",
+      "value":1,
+      "url": "https://stackoverflow.com/"
+    },
+    {
+      "id":"15",
+      "title": "Wiki Books",
+      "value":1,
+      "url": "http://en.wikibooks.org/wiki/JavaScript/Introduction"
+    }
+  ]
+}
+]
+}
