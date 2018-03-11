@@ -1,0 +1,24 @@
+    <table class="ui table">
+      <thead>
+        <tr>
+          <th class="five wide">Title</th>
+          <th class="five wide">URL</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each webmark.bookmarks}}
+          <tr>
+            <td>
+              {{title}}
+            </td>
+              <td>
+                <a target="_blank" href="{{url}}">{{url}}</a>
+            </td>
+            <td class="right aligned">
+            <a href="/bookmark/{{../webmark.id}}/deletebookmark/{{id}}"><i class="trash alternate large red icon"></i></a>
+            </td>
+          </tr>
+        {{/each}}
+      </tbody>
+    </table>
